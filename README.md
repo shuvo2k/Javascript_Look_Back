@@ -14,21 +14,20 @@
 এইচটিএমএল ফাইলে আমরা `script` টাগ এর মাধ্যমে জাভাস্ক্রিপ্ট লিখতে পারি অথবা আলাদা জাভাস্ক্রিপ্ট ফাইল `script` টাগ এর `src` অ্যাট্রিবিউট মাধ্যমে যোগ করতে পারি । 
 ```
 <html>
-<head></head>
+  <head></head>
 <body>
-<script>
-alert("hello js");</script>
+  <script>
+    alert("hello js");
+  </script>
 </body>
 </html>
 ```
  
   ```
-  <html>
-<head></head>
+<html>
+  <head></head>
 <body>
-<script>
-alert("hello js");</script>
-<script src="test.js"></script>
+  <script src="test.js"></script>
 </body>
 </html>
   
